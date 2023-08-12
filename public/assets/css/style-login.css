@@ -1,0 +1,57 @@
+body {
+    background-color: whitesmoke;
+}
+
+.kotak_bg {
+    width: 410px;
+    background: white;
+    margin: 10px auto;
+    padding: 20px 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    order: 2;
+}
+.kotak_bg h2 {
+    margin-bottom: 5px;
+}
+.kotak_bg p {
+    color: gray;
+}
+.kotak_login {
+    width: 410px;
+    background: lightslategray;
+    /*meletakkan form ke tengah*/
+    margin: 10px auto;
+    padding: 20px 20px;
+}
+.kotak_login p {
+    float: right;
+    color: lightgrey;
+}
+label {
+    font-size: 11pt;
+}
+
+.form_login {
+    /*membuat lebar form penuh*/
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 5%;
+}
+
+.tombol_login {
+    background: darkslateblue;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}

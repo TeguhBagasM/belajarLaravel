@@ -1,0 +1,45 @@
+body{
+	font-family: sans-serif;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url('../img/bg_sklh.jpg');
+    background-size: cover;   
+    background-position: center;
+}
+ 
+h1{
+	text-align: center;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: #c7e9ff;
+	margin: 90px auto;
+	padding: 35px 25px;
+	opacity: 0.9;
+	margin-top: 130px;
+}
+ 
+.form_login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #4169e1;
+	color: white;
+	font-weight: bold;
+	font-size: 12pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+
+}
